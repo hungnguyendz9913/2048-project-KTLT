@@ -2,14 +2,6 @@
 
 Đây là 1 dự án về trò chơi 2048 bằng C++, mục tiêu của trò chơi là di chuyển các ô vuông sao cho có 1 ô bất kỳ đạt giá trị là 2048 để giành chiến thắng.
 
-## Mục lục
-
-- [Giới thiệu](#giới-thiệu)
-
-- [Cách chơi](#cách-chơi)
-
-- [Liên hệ](#liên-hệ)
-
 ## Giới thiệu
 
 ## Tác giả:
@@ -42,3 +34,12 @@ Chạy source code 23120149.sln
 - **Không di chuyển quá nhiều**: Hạn chế di chuyển các ô vuông nhiều lần mà không tạo ra sự kết hợp để giữ khoảng trống cho các ô mới.
 - **Lên kế hoạch trước**: Luôn nghĩ trước một vài bước để xem các di chuyển của bạn sẽ tạo ra điều gì và tránh làm mất các ô quan trọng.
 
+## Chức năng phím:
+- **Q: Quit to Menu** - Nhấn phím `Q` để thoát ra menu chính.
+- **E: Resume** - Nhấn phím `E` để dừng trò chơi hiện tại và thoát ra menu chính.
+- **U: Undo** - Nhấn phím `U` để hoàn tác lần di chuyển trước đó.
+- **R: Redo** - Nhấn phím `R` để làm lại lần di chuyển đã hoàn tác.
+
+## Một số tính năng khác:
+- Chọn kích thước bảng tùy ý (4x4, 5x5, ... 10x10).
+- Điều chỉnh có thể hoặc không thể Undo Redo.
